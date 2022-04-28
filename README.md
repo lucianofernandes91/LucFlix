@@ -1,2 +1,2 @@
-# LucFlix2
+# LucFlix
 Streamer de Vídeo em node.js
