@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LucFlix</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <script src= "{caminho_path}/arquivos/index.js"></script>
+    
+    <style>
+      h1 {color: red;}
+      body {text-align: center;}
+    </style>
+  </head>
+  
+  <body>
+
+    <div>
+      <button type="button" id="azumi.mp4"       onclick="onclick_play_video(this.id)"> Azumi          </button>
+      <button type="button" id="drestranho.mp4"  onclick="onclick_play_video(this.id)" > Dr. Estranho </button>
+      <button type="button" id="ahospedeira.mp4" onclick="onclick_play_video(this.id)" > A Hospedeira </button>
+      <br>
+      <!-- Duas linhas pra esse button. Enorme... Rsrs -->
+      <button type="button" id="tela_inteira" position="center"
+              onclick= "onclick_tela_inteira(document.getElementById('id_video'))" > Tela Inteira </button>
+    </div>
+
+    <div style="margin:0 auto;">
+      <!-- Parte Principal - Reprodução do vídeo -->
+      <video src="" controls width="640" height="480" id="id_video"></video>
+    </div>
+
+  </body>
+</html>
